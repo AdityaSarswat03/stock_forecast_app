@@ -166,7 +166,7 @@ try:
         st.metric("Forecast Change", f"{change_pct:.1f}%")
     
     # Show forecast table
-    st.subheader("🔮 Forecast Details")
+    st.subheader(" Forecast Details")
     forecast_display = forecast_df.copy()
     forecast_display['Date'] = forecast_display['Date'].dt.strftime('%Y-%m-%d')
     forecast_display['Forecast'] = forecast_display['Forecast'].astype(float).round(2)
