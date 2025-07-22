@@ -12,7 +12,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Simple Stock Forecast", layout="wide")
-st.title("📈 Simple Stock Forecasting")
+st.title("📈 Stock Forecasting")
 
 # Sidebar inputs
 ticker = st.sidebar.text_input("Stock Ticker", value="AAPL")
